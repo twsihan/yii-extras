@@ -1,0 +1,38 @@
+{
+    "name": "twsihan/yii-extras",
+    "description": "Yii2 Framework extras",
+    "keywords": [
+        "yii2",
+        "extension",
+        "extras",
+        "plugins",
+        "helpers"
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/twsihan/yii2-extras/issues",
+        "source": "https://github.com/twsihan/yii2-extras"
+    },
+    "authors": [
+        {
+            "name": "Twsi Han",
+            "email": "twsihan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "~2.0.14",
+        "twsihan/php-extras": "~0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "twsihan\\yii\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.x-dev"
+        }
+    }
+}
